@@ -1,5 +1,6 @@
 * {
 	margin: 0px;
+	font-family: 'Dancing Script', cursive;
 }
 
 /*Заголовок*/
@@ -11,7 +12,6 @@ header {
 }
 
 .site-title {
-	font-family: 'Dancing Script', cursive;
 	color: green;
 	margin-right: 25%;
 	margin-top: auto;
