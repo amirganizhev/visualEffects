@@ -3,6 +3,10 @@
 	font-family: 'Dancing Script', cursive;
 }
 
+button {
+	cursor: pointer;
+}
+
 /*Заголовок*/
 header {
 	background-color: white;
