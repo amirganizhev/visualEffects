@@ -22,6 +22,7 @@ article {
 .modal-button {
 	background-color: green;
 	border-radius: 15px;
+	margin-bottom: 20px;
 }
 
 .modal-window {
@@ -41,4 +42,35 @@ article {
 	position: absolute;
 	top: -7px;
 	right: -7px;
+}
+
+/*Слайдер (slider.js)*/
+.arrow-slide-left {
+	cursor: pointer;
+}
+
+.arrow-slide-left1 {
+	cursor: pointer;
+	display: none;
+}
+
+.arrow-slide-right {
+	cursor: pointer;
+}
+
+.arrow-slide-right1 {
+	cursor: pointer;
+	display: none;
+}
+
+.slide-one {
+	display: inline;
+}
+
+.slide-two {
+	display: none;
+}
+
+.slide-three {
+	display: none;
 }
