@@ -7,6 +7,11 @@ button {
 	cursor: pointer;
 }
 
+hr {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
 /*Заголовок*/
 header {
 	background-color: white;
@@ -117,4 +122,15 @@ footer a {
 	text-decoration: none;
 	margin-right: 15px;
 	color: black;
+}
+
+/*Стрелка вверх*/
+.upload {
+	position: fixed;
+	cursor: pointer;
+	top: 80%;
+	right: 50px;
+	text-decoration: none;
+	color: black;
+	display: none;
 }

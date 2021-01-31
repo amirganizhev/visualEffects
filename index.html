@@ -11,7 +11,7 @@
 <body>
 
 	<!---->
-	<header>
+	<header name="top">
 		<h1 class="site-title">Visual-Effects</h1>
 		<input type="text">
 		<button>
@@ -48,10 +48,7 @@
 				<center>
 				<input type="color" class="color-input">
 				</center>
-				<br>
-				<br>
 				<hr>
-				<br>
 			</section>
 			<section>
 				<h1>Модальное окно (modalWindow.js)</h1>
@@ -62,7 +59,6 @@
 				<img src="image/icons/close.svg" alt="" class="closeModalWindow" width="20px" height="20px">
 				</div>
 				<hr>
-				<br>
 			</section>
 			<section>
 				<h1>Слайдер (slider.js)</h1>
@@ -84,7 +80,6 @@
 				<br>
 				<button class="button-change-figure">Изменить фигуру</button>
 				<hr>
-				<br>
 			</section>
 			<section>
 				<h1>При вводе в форму, внизу отображается какая кнопка была 
@@ -95,10 +90,30 @@
 				<p>Код кнопки:<p class="keyCode"></p></p>
 				<p>Нажата кнопка shift:<p class="shiftPressed"></p></p>
 				<hr>
+			</section>
+			<section>
+				<h1>Валидация форм (validate.js):</h1>
 				<br>
+				<p>Сюда можно ввести только английские буквы: <input type="text" class="english-letters"></p>
+				<br>
+				<p>Сюда можно ввести только русские буквы: <input type="text" class="russian-letters"></p>
+				<br>
+				<p>Сюда можно ввести только цифры: <input type="text" class="numerals"></p>
+				<br>
+				<hr>
+			</section>
+			<section>
+				<h1>Игра с двигающимся шаром, при нажатии на A D W S, шар будет двигаться, файл с кодом (gameBall.js)</h1>
+				<div class="gameZone">
+					<div class="gameBall"></div>
+				</div>
+				<hr>
 			</section>
 		</article>
-		<aside></aside>
+		<aside>
+			<a href="#top" class="upload"><img src="image/icons/upload.svg" width="50px" height="50px">
+			<p>Наверх</p></a>
+		</aside>
 	</main>
 
 	<footer>
@@ -119,6 +134,9 @@
 <script type="text/javascript" src="js/project/changeTheme.js"></script>
 <script type="text/javascript" src="js/project/changeFigure.js"></script>
 <script type="text/javascript" src="js/project/keyboardButton.js"></script>
+<script type="text/javascript" src="js/project/validate.js"></script>
+<script type="text/javascript" src="js/project/gameBall.js"></script>
+<script type="text/javascript" src="js/project/upload.js"></script>
 
 </body>
 </html>
